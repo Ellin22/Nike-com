@@ -554,12 +554,354 @@ video {
   --tw-contain-style:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.m-\[\] {
+  margin: ;
+}
+
+.m-\[33px\] {
+  margin: 33px;
+}
+
+.mx-\[33px\] {
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+.my-\[33px\] {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.my-\[\] {
+  margin-top: ;
+  margin-bottom: ;
+}
+
+.my-\[3px\] {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.my-\[23px\] {
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+.my-\[28px\] {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.my-\[24px\] {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.mx-\[\] {
+  margin-left: ;
+  margin-right: ;
+}
+
+.mx-\[36px\] {
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+.mb-\[12px\] {
+  margin-bottom: 12px;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[16px\] {
+  margin-bottom: 16px;
+}
+
+.mb-\[16\] {
+  margin-bottom: 16;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[48\.22px\] {
+  height: 48.22px;
+}
+
+.h-\[24px\] {
+  height: 24px;
+}
+
+.h-\[33\.25px\] {
+  height: 33.25px;
+}
+
+.h-\[100px\] {
+  height: 100px;
+}
+
+.h-\[36px\] {
+  height: 36px;
+}
+
+.h-\[\.25px\] {
+  height: .25px;
+}
+
+.h-\[48\.25px\] {
+  height: 48.25px;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[48px\] {
+  height: 48px;
+}
+
+.h-\[23px\] {
+  height: 23px;
+}
+
+.h-\[56px\] {
+  height: 56px;
+}
+
+.h-\[46px\] {
+  height: 46px;
+}
+
+.w-\[4\] {
+  width: 4;
+}
+
+.w-\[460px\] {
+  width: 460px;
+}
+
+.w-\[46opx\] {
+  width: 46opx;
+}
+
+.w-\[48\.22px\] {
+  width: 48.22px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[33px\] {
+  width: 33px;
+}
+
+.w-\[50px\] {
+  width: 50px;
+}
+
+.w-\[60px\] {
+  width: 60px;
+}
+
+.w-\[px\] {
+  width: px;
+}
+
+.w-\[48px\] {
+  width: 48px;
+}
+
+.w-\[368px\] {
+  width: 368px;
+}
+
+.w-\[115px\] {
+  width: 115px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border-\[0px\] {
+  border-width: 0px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-\[\] {
+  border-color: ;
+}
+
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.p-\[\] {
+  padding: ;
+}
+
+.p-\[16px\] {
+  padding: 16px;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[2px\] {
+  padding-top: 2px;
+}
+
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-50 {
+  --tw-text-opacity: 1;
+  color: rgb(249 250 251 / var(--tw-text-opacity));
+}
+
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
