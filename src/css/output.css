@@ -622,6 +622,30 @@ video {
   width: 60px;
 }
 
+.w-full {
+  width: 100%;
+}
+
+.min-w-\[\] {
+  min-width: ;
+}
+
+.min-w-\[318px\] {
+  min-width: 318px;
+}
+
+.max-w-\[\] {
+  max-width: ;
+}
+
+.max-w-\[4612\] {
+  max-width: 4612;
+}
+
+.max-w-\[460px\] {
+  max-width: 460px;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -636,6 +660,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.text-wrap {
+  text-wrap: wrap;
 }
 
 .rounded-full {
@@ -668,6 +696,11 @@ video {
   padding: 16px;
 }
 
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .pt-\[2px\] {
   padding-top: 2px;
 }
@@ -692,4 +725,75 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-10 {
+  opacity: 0.1;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.hover\:bg-slate-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-slate-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(224 242 254 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 105 161 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-blend-soft-light:hover {
+  background-blend-mode: soft-light;
 }
