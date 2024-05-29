@@ -18,7 +18,7 @@ class Card extends HTMLElement {
         this.innerHTML = `
             <img class="w-full h-full object-cover" src="${imageCardURL}" alt="${meaning}">
             <div class="absolute bottom-[50px] left-[50px]">
-                <p class="text-white text-[18px] font-medium">${paragraph}</p>
+                <p class="text-white text-[16px] font-medium">${paragraph}</p>
                 <h3 class="text-white text-[24px]">${h3}</h3>
                 <div class="mt-[10px]">
                     <button class="rounded-[50px] border border-solid bg-[white] opacity-1 w-auto py-[8px] px-[20px]">
