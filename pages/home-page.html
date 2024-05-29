@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../src/css/output.css">
     <script src="../components/navbar-component.js"defer></script>
     <script src="/components/card-image-components.js" defer></script>
+    <script src="../src/script/contentPart.js" defer></script>
 </head>
 <body>
     
@@ -152,67 +153,80 @@
     </div>
     <div >
 
-        <!-- Before-footer-part -->
-<div class="before-last-container">
-    <div class="before-footer">
-        <h4> Featured </h4>
-        <ul>
-            <li> Air Force 1 </li>
-            <li> Jordan 1 </li>
-            <li> Metcon </li>
-            <li> Air Max 270 </li>
+    <!-- Before-footer-part -->
+        <!-- When hover on it then it will expand it out  -->
+    <div class="flex justify-center overflow-hidden ease-in-[0.2s] max-[600px]:hidden" id="expandcontent">
+        <div class="w-[880px] flex justify-between px-[20px]">
+            <div>
+                <h4  class="mb-[24px] text-[18px] font-medium">Featured</h4>
+                <ul class="text-gray-500 text base mb-[12px]">
+                    <li><a href="#" class="hover:text-black">Air Force 1</a></li>
+                    <li><a href="#" class="hover:text-black">Jordan 1</a></li>
+                    <li><a href="#" class="hover:text-black">Metcon</a></li>
+                    <li><a href="#" class="hover:text-black">Air Max 270</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="mb-[24px] text-[18px] font-medium">Shoes</h4>
+                <ul class="text-gray-500 text-base mb-[12px]">
+                    <li><a href="#" class="hover:text-black">All Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Jordan Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Running Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Basketball Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Tennis Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Training Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Custom Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Sale Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Soccer Shoes</a></li> 
+                
+                </ul>
+            </div>
+            <div>
+                <h4 class="mb-[24px] text-[18px] font-medium"> Clothing </h4>
+                <ul class="text-gray-500 text-base mb-[12px]">
+                    <li><a href="#" class="hover:text-black">All Clothing</a></li>
+                    <li><a href="#" class="hover:text-black">Top & T-Shirts</a></li>
+                    <li><a href="#" class="hover:text-black">Shorts</a></li>
+                    <li><a href="#" class="hover:text-black">Hoodies & Pullovers</a></li>
+                    <li><a href="#" class="hover:text-black">All Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Jordan Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Running Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Basketball Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Joggers & sweatpants</a></li>
+                    <li><a href="#" class="hover:text-black">Sports Bras</a></li>
+                    <li><a href="#" class="hover:text-black">Pants & Tights</a></li>
+                    <li><a href="#" class="hover:text-black">Socks</li>
+                    <li><a href="#" class="hover:text-black">Yoga</a></li>
+                    <li><a href="#" class="hover:text-black">NikeLab</a></li>
+                    <li><a href="#" class="hover:text-black">Plus Size</a></li>
+                    <li><a href="#" class="hover:text-black">Big & Tall</a></li>
+                    <li><a href="#" class="hover:text-black">Sale Clothing</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="mb-[24px] text-[20px] font-medium">Kids</h4>
+                <ul class="text-gray-500 ext-base mb-[12px">
+                    <li><a href="#" class="hover:text-black">Infant & Toddler Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Basketball Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Running Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Jordan Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Clothing</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Backpacks</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Socks</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Sale</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>   
+    <div class="mx-[20px] min-[600px]:hidden">
+        <ul class="text-[20px]">
+            <li class="mb-[24px]"><a href="#">Featured</a></li>
+            <li class="mb-[24px]"><a href="#">Shoes</a></li>
+            <li class="mb-[24px]"><a href="#">Clothing</a></li>
+            <li class="mb-[24px]"><a href="#">Kids</a></li>
         </ul>
-    </div>
-    <div class="before-footer">
-        <h4> Shoes </h4>
-        <ul>
-            <li> All Shoes </li>
-            <li> Jordan Shoes </li>
-            <li> Running Shoes </li>
-            <li> Basketball Shoes </li>
-            <!-- <li> Tennis Shoes </li>
-            <li> Training Shoes </li>
-            <li> Custom Shoes </li>
-            <li> Sale Shoes </li>
-            <li> Soccer Shoes </li> -->
-        </ul>
-    </div>
-    <div class="before-footer">
-        <h4> Clothing </h4>
-        <ul>
-            <li> All Clothing </li>
-            <li> Top & T-Shirts</li>
-            <li> Shorts </li>
-            <li> Hoodies & Pullovers </li>
-            <!-- <li> All Shoes </li>
-            <li> Jordan Shoes </li>
-            <li> Running Shoes </li>
-            <li> Basketball Shoes </li>
-            <li> Joggers & sweatpants </li>
-            <li> Sports Bras </li>
-            <li> Pants & Tights </li>
-            <li> Socks </li>
-            <li> Yoga </li>
-            <li> NikeLab </li>
-            <li> Plus Size </li>
-            <li> Big & Tall </li>
-            <li> Sale Clothing </li> -->
-        </ul>
-    </div>
-    <div class="before-footer">
-        <h4> Kids </h4>
-        <ul>
-            <li> Infant & Toddler Shoes </li>
-            <li> Kids Shoes </li>
-            <li> Kids Basketball Shoes </li>
-            <li> Kids Running Shoes </li>
-            <!-- <li> Kids Jordan Shoes </li>
-            <li> Kids Clothing </li>
-            <li> Kids Backpacks </li>
-            <li> Kids Socks </li>
-            <li> Kids Sale </li>-->
-        </ul>
-    </div>
+    </div> 
     
 </body>
 </html>
