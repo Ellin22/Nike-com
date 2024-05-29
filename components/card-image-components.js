@@ -16,7 +16,7 @@ class Card extends HTMLElement {
 
         // Inner HTML structure
         this.innerHTML = `
-            <img class="w-full h-full object-cover" src="${imageCardURL}" alt="${meaning}">
+            <img class="w-full h-full object-cover " src="${imageCardURL}" alt="${meaning}">
             <div class="absolute bottom-[50px] left-[50px]">
                 <p class="text-white text-[16px] font-medium">${paragraph}</p>
                 <h3 class="text-white text-[24px]">${h3}</h3>

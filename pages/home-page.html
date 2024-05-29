@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="../src/css/output.css">
     <script src="../components/navbar-component.js"defer></script>
     <script src="/components/card-image-components.js" defer></script>
+    <script src="../components/scrollComponents.js"defer></script>
     <script src="../src/script/contentPart.js" defer></script>
 </head>
 <body>
     
     <!-- Navbar -->
     <static-nav></static-nav>
-
     <!-- body-part -->
     <div class="main-content">        
         
@@ -27,21 +27,18 @@
         
         <!-- hero img description-->
         <div class="w-full flex flex-col items-center mt-[48px]">
-            <p class="h-[24px] mb-[4px] text-base font-medium"> Just In </p>
-            <h3 class="font-bolder text-[60px] mb-[8px] h-full"> AIR MAX DN </h3>
-            <p class="h-[24px] mt-[24px] flex justify-center cursor-pointer"> Step into the unreal would's of Sha'Carri Richardson and Erling Haaland.</p>
-            <div class="mt-[10px]">
-                <button class="h-[36px] w-[108px] bg-black text-white border rounded-[50px] py-[5px] px-[16px] text-center "> 
-                    <p>Shop Now </p>
-                </button>
+            <h3 class="font-extrabold text-center text-[70px]  h-full">INSTANT IMPACT</h3>
+            <p class="text-center mb-[12px] h-[24px] flex justify-center cursor-pointer">Style WNBA star Natasha Cloud may be making her Phoenix debut in.</p>
+            <div>
+                <button class=" mt-[18px] h-[36px] bg-black  text-white border rounded-[50px] py-[5px] px-[16px] text-center ">Shop Natahsa's Picks</button>
             </div>
         </div>
     </div>
     <!-- 2 columns grid -->
-    <div class="advertisement-container">
-        <div class="grid grid-cols-2 mt-[84px] max-[599px]:flex max-[599px]:flex-col">
+
+        <div class="grid grid-cols-2 mt-[84px] max-[599px]:grid-cols-1 max-[599px]:">
             <image-card
-            URL="../assets/homepag.webp/grid1.webp"
+            URL="../assets/homepage.webp/grid1.webp"
             meaning="women"
             paragraph="Made for You. From Naomi."
             h3="Own Your Moment"
@@ -49,7 +46,7 @@
             ></image-card>
             
             <image-card
-            URL="../assets/homepag.webp/grid2.webp"
+            URL="../assets/homepage.webp/grid2.webp"
             meaning="low dunk"
             paragraph="Father's Day Gitfs"
             h3="Dad-Worthy Kicks & More"
@@ -57,7 +54,7 @@
             ></image-card>
     
             <image-card
-            URL="../assets/homepag.webp/grid3.webp"
+            URL="../assets/homepage.webp/grid3.webp"
             meaning="baseball men"
             paragraph="Saquon Barkley's Picks"
             h3="Air Max, Football Cleats & More"
@@ -65,98 +62,87 @@
             ></image-card>
             
             <image-card
-            URL="../assets/homepag.webp/grid4.webop.jpeg"
+            URL="../assets/homepage.webp/grid4.webp"
             meaning="women"
             paragraph="Tame the Terrain"
             h3="Nike Zegama 2"
             buttonName="Shop"
             ></image-card>
         </div>
-    </div>
+    
     <!-- Content-->
-    <div class="content-part">
-        <h3 class="first-paragraph">NEW THIS WEEK</h3>
-        <div class="three-buttons">
-            <button> 
-                <a href="#">Shop Men's New Arrivals</a>
-            </button>
-            <button> 
-                <a href="#">Shop Women's New Arrivals</a>
-            </button>
-            <button>
-                <a href="#">Shop kid's New Arrivals</a>
+
+    <div class="text-center mt-[84px]">
+        <h3 class="text-[60px] font-extrabold">NEW THIS WEEK</h3>
+        <div>
+            <button class="border-none rounded-[50px] bg-black px-[20px] py-[5px] mx-[10px]"> 
+                <a  class="text-white" href="#">Shop New Arrivals</a>
             </button>
         </div>
     </div>
     
     <!-- A hero img -->
-    <div class="hero-img">
-        <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1052,c_limit/f1a0ca97-d658-42f6-94ab-6e2c07ebc815/nike-just-do-it.jpg" alt="nike Jordan"/>
-    </div> 
-    
-    <div class="responsive-hero-img">
-        <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_667,c_limit/4081829b-edc7-43f0-ae50-ba8a875d4a08/nike-just-do-it.jpg" alt="The women holding lots of jordan">
+    <!--responsive of the hero content -->
+    <div>
+        <img class="w-full mt-[48px] smin:hidden" src="../assets/homepage.webp/hero2-.webp" alt="nike baseball">
     </div>
     
+    <div class="mt-[42px] ">
+        <img class="w-full max-[599px]:hidden " src="../assets/homepage.webp/hero2.webp" alt="nike baseball"/>
+    </div> 
+    
     <!-- A text "Shop by classics under the hero img " -->
-    <div class="title-content">
-        <h2> SHOP BY CLASSICS </h2>
+    <div class=" ml-[48px]">
+        <h2 class="font-extrabold lg:text-[50px] text-[30px] mt-[84px] mb-[12px]">SHOP BY CLASSICS</h2>
     </div>
     
     <!-- slide bar -->
-    <div class="slide-bar-container">
-        <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1726,c_limit/f66e2e57-8c09-4fe2-b9c0-a8eeb1500214/nike-just-do-it.jpg" alt="Air Jordan 1">
-        <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1726,c_limit/105756ec-102e-4bd9-99b7-c2982b3d63fb/nike-just-do-it.jpg" alt="Dunk">
-        <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1726,c_limit/69825330-5dd3-4152-bdb4-ec28d30495f8/nike-just-do-it.jpg" alt="Air Force">
-        <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1100,c_limit/5655e9ec-0f89-4e29-9dcc-486bb6c6abac/nike-just-do-it.jpg" alt="Blazer">
-        <img  src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1726,c_limit/6c62a820-6f8e-4228-bce0-2488dd8531e7/nike-just-do-it.jpg" alt="Vermero">
-        <img  src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1726,c_limit/3a843a65-00d9-48ef-a068-4c4dfc628c3c/nike-just-do-it.jpg" alt="Air Max">
-    </div>
+    <scroll-carousel
+        URL1="../assets/homepage.webp/Air Jordan 1.webp"
+        URL2="../assets/homepage.webp/Dunk.webp"
+        URL3="../assets/homepage.webp/Air Force1.webp"
+        URL4="../assets/homepage.webp/Blazer.webp"
+        URL5="../assets/homepage.webp/Vomero.webp"
+        URL6="../assets/homepage.webp/Air Max.webp">
+    </scroll-carousel>
+
+
     
     <!-- Nike Membership -->
-    <div class="last-content-part">
-        <p> NIKE MEMBERSHIP </p>
+    <div class="ml-[48px]">
+        <p class="font-extrabold lg:text-[50px] text-[30px] mt-[84px] mb-[12px]">NIKE MEMBERSHIP</p>
     </div>
     
     <!-- Images under the membership content -->
-    <div class="image-container">
-        <div class="inside-image-container">
-            <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_759,c_limit/4c87032a-1756-47dc-b731-966f2d79285e/nike-just-do-it.jpg" alt="Women sitdown with green sport shirt">
-            <div class="content-inside-image">
-                <p class="one-last"> Member Product </p>
-                <p class="two-last"> Your Exclusive Access </p>
-                <button>
-                    <a href="#"> Shop </a>
-                </button>
-            </div>
-        </div>
-        <div class="inside-image-container">
-            <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_636,c_limit/73de197a-2e67-42aa-b4e6-aeda1883636b/nike-just-do-it.jpg" alt="Women sitdown with green sport shirt">
-            <div class="content-inside-image">
-                <p class="one-last"> Sports & Wellness Apps </p>
-                <p class="two-last"> Movement Where You're At </p>
-                <button>
-                    <a href="#"> Move </a>
-                </button>
-            </div>
-        </div>
-        <div class="inside-image-container">
-            <img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_379,c_limit/a3d73dc6-a36a-432c-a845-68bf59c5f876/nike-just-do-it.jpg" alt="Women sitdown with green sport shirt">
-            <div class="content-inside-image">
-                <p class="one-last"> Nike By You </p>
-                <p class="two-last"> Your Customization Service </p>
-                <button>
-                    <a href="#">Customize</a>
-                </button>
-            </div>
-        </div>
+    <div class="px-[50px] pb-[30px] grid grid-cols-3 gap-[12px]">
+        <image-card
+            URL="../assets/homepage.webp/green.webp"
+            meaning="green sport shirt"
+            paragraph="Member Product"
+            h3="Your Exclusive Access"
+            buttonName="Shop"
+        ></image-card>
+     
+        <image-card
+            URL="../assets/homepage.webp/Workout.webp"
+            meaning="Workout"
+            paragraph="Sports & Wellness Apps"
+            h3="Movement Where You're At"
+            buttonName="Move"
+        ></image-card>
+        
+        <image-card
+            URL="../assets/homepage.webp/Orange.webp"
+            meaning="Orange nike"
+            paragraph="Made for You. From Naomi."
+            h3="Your Customization Service"
+            buttonName="Customize"
+            ></image-card>
     </div>
-    <div >
-
-    <!-- Before-footer-part -->
-        <!-- When hover on it then it will expand it out  -->
-    <div class="flex justify-center overflow-hidden ease-in-[0.2s] max-[600px]:hidden" id="expandcontent">
-        <div class="w-[880px] flex justify-between px-[20px]">
+    
+    <!-- When hover on it then it will expand it out  -->
+    <div class="flex justify-center overflow-hidden transition-all ease-in-out duration-500 max-[600px]:hidden" id="expandcontent">
+        <div class="w-[880px] flex justify-between px-[20px] mt-[50px]">
             <div>
                 <h4  class="mb-[24px] text-[18px] font-medium">Featured</h4>
                 <ul class="text-gray-500 text base mb-[12px]">
