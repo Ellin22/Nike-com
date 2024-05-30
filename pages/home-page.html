@@ -9,6 +9,7 @@
     <script src="/components/card-image-components.js" defer></script>
     <script src="../components/scrollComponents.js"defer></script>
     <script src="../src/script/contentPart.js" defer></script>
+    <script src="../components/footer-component.js" defer></script>
 </head>
 <body>
     
@@ -146,7 +147,7 @@
     </div>
     <!-- When hover on it then it will expand it out  -->
     <div class="flex justify-center overflow-hidden transition-all ease-in-out duration-500 max-[600px]:hidden" id="expandcontent">
-        <div class="w-[880px] flex justify-between px-[20px] mt-[50px]">
+        <div class="w-[880px] flex justify-between px-[20px]">
             <div>
                 <h4  class="mb-[24px] text-[18px] font-medium">Featured</h4>
                 <ul class="text-gray-500 text base mb-[12px]">
@@ -217,7 +218,9 @@
             <li class="mb-[24px]"><a href="#">Kids</a></li>
         </ul>
     </div> 
-
+    
+    <!-- Footer -->
+    <static-footer></static-footer>
     
 </body>
 </html>
