@@ -13,7 +13,7 @@ class Cardd extends HTMLElement {
         const imageCardURL6 = this.getAttribute('URL6');
 
         // Set class for styling
-        this.setAttribute('class',  'scroll-carousel-container');
+        this.setAttribute('class', 'scroll-carousel-container');
 
         // Inner HTML structure
         this.innerHTML = `
