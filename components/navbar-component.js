@@ -20,7 +20,7 @@ class Navbar extends HTMLElement {
                             <li class="mx-[4px]"> | </li>
                             <li class="mx-[8px]"><a href="#"> Join Us </a></li>
                             <li class="mr-[4px]"> | </li>
-                            <li class="mx-[]"><a href="#"> Sign In </a></li>
+                            <li class="mx-[]"><a href="../pages/sign-in.html"> Sign In </a></li>
                         </ul>
                     </div>
                 </div>
