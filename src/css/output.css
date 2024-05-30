@@ -714,6 +714,10 @@ video {
   margin-top: 84px;
 }
 
+.mb-\[84px\] {
+  margin-bottom: 84px;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -873,6 +877,10 @@ video {
 
 .gap-\[12px\] {
   gap: 12px;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .overflow-hidden {
@@ -1174,6 +1182,14 @@ video {
 @media (max-width: 959px) {
   .max-\[959px\]\:hidden {
     display: none;
+  }
+
+  .max-\[959px\]\:h-\[852px\] {
+    height: 852px;
+  }
+
+  .max-\[959px\]\:w-\[681px\] {
+    width: 681px;
   }
 }
 
