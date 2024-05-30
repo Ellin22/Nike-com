@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../src/css/output.css">
+    <script src="../components/navbar-component.js"defer></script>
+    <script src="/components/card-image-components.js" defer></script>
+    <script src="../components/scrollComponents.js"defer></script>
+    <script src="../src/script/contentPart.js" defer></script>
+    <script src="../components/footer-component.js" defer></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <static-nav></static-nav>
+    
+    <!-- body-part -->
+    <div class="main-content">        
+        
+        <div class="w-screen object-cover max-[960px]:hidden" >
+            <img class="w-full" src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1896,c_limit/1764af2f-598e-4718-a889-493500f016f3/nike-just-do-it.jpg" alt="feel the unreal image">
+        </div>
+        
+        <div class="=w-screen object-cover ">
+            <img class="w-full min-[961px]:hidden" src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_718,c_limit/d357b968-7b42-4f27-95dc-e469509b2b37/nike-just-do-it.jpg" alt="feel the unreal image">
+        </div>
+        
+        <!-- hero img description-->
+        <div class="w-full flex flex-col items-center mt-[48px]">
+            <h3 class="font-extrabold text-center text-[70px]  h-full">INSTANT IMPACT</h3>
+            <p class="text-center mb-[12px] h-[24px] flex justify-center cursor-pointer">Style WNBA star Natasha Cloud may be making her Phoenix debut in.</p>
+            <div>
+                <button class=" mt-[18px] h-[36px] bg-black  text-white border rounded-[50px] py-[5px] px-[16px] text-center ">Shop Natahsa's Picks</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 2 columns grid -->
+    <div class="grid grid-cols-2 mt-[84px] max-[599px]:grid-cols-1 max-[599px]:">
+        <image-card
+            URL="../assets/homepage.webp/grid1.webp"
+            meaning="women"
+            paragraph="Made for You. From Naomi."
+            h3="Own Your Moment"
+            buttonName="Shop"
+        ></image-card>
+        
+        <image-card
+            URL="../assets/homepage.webp/grid2.webp"
+            meaning="low dunk"
+            paragraph="Father's Day Gitfs"
+            h3="Dad-Worthy Kicks & More"
+            buttonName="Shop"
+        ></image-card>
+
+        <image-card
+            URL="../assets/homepage.webp/grid3.webp"
+            meaning="baseball men"
+            paragraph="Saquon Barkley's Picks"
+            h3="Air Max, Football Cleats & More"
+            buttonName="Shop"
+        ></image-card>
+        
+        <image-card
+            URL="../assets/homepage.webp/grid4.webp"
+            meaning="women"
+            paragraph="Tame the Terrain"
+            h3="Nike Zegama 2"
+            buttonName="Shop"
+        ></image-card>
+    </div>
+
+    <!-- Content-->
+
+    <div class="text-center mt-[84px]">
+        <h3 class="text-[60px] font-extrabold">NEW THIS WEEK</h3>
+        <div>
+            <button class="border-none rounded-[50px] bg-black px-[20px] py-[5px] mx-[10px]"> 
+                <a  class="text-white" href="#">Shop New Arrivals</a>
+            </button>
+        </div>
+    </div>
+    
+    <!-- A hero img -->
+    <!--responsive of the hero content -->
+    <div>
+        <img class="w-full mt-[48px] smin:hidden" src="../assets/homepage.webp/hero2-.webp" alt="nike baseball">
+    </div>
+    
+    <div class="mt-[42px] ">
+        <img class="w-full max-[599px]:hidden " src="../assets/homepage.webp/hero2.webp" alt="nike baseball"/>
+    </div> 
+    
+    <!-- A text "Shop by classics under the hero img " -->
+    <div class=" ml-[48px]">
+        <h2 class="font-extrabold lg:text-[50px] text-[30px] mt-[84px] mb-[12px]">SHOP BY CLASSICS</h2>
+    </div>
+    
+    <!-- slide bar -->
+    <scroll-carousel
+        URL1="../assets/homepage.webp/Air Jordan 1.webp"
+        URL2="../assets/homepage.webp/Dunk.webp"
+        URL3="../assets/homepage.webp/Air Force1.webp"
+        URL4="../assets/homepage.webp/Blazer.webp"
+        URL5="../assets/homepage.webp/Vomero.webp"
+        URL6="../assets/homepage.webp/Air Max.webp">
+    </scroll-carousel>
+
+    <!-- Nike Membership -->
+    <div class="ml-[48px]">
+        <p class="font-extrabold lg:text-[50px] text-[30px] mt-[84px] mb-[12px]">NIKE MEMBERSHIP</p>
+    </div>
+    
+    <!-- Images under the membership content -->
+    <div>
+        <div class="overflow-x-scroll grid grid-cols-3 gap-[15px] mx-[50px] mb-[70px]">
+            <div class="size-full relative">
+                <img class="w-full h-full " src="../assets/homepage.webp/green.webp" alt="green sport shirt">
+                <div class="absolute bottom-[50px] left-[50px]">
+                    <p class="text-white text-[16px] font-medium">Member Product</p>
+                    <h3 class="text-white text-[24px]">Your Exclusive Access</h3>
+                    <div class="mt-[10px]">
+                        <button class="rounded-[50px] border border-solid bg-[white] opacity-1 w-auto py-[8px] px-[20px]">
+                            <a class="text-black text-[18px] cursor-pointer font-medium" href="#">Shop</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="size-full relative">
+                <img class="w-full h-full " src="../assets/homepage.webp/Workout.webp" alt="work out">
+                <div class="absolute bottom-[50px] left-[50px]">
+                    <p class="text-white text-[16px] font-medium">Sport & Wellness Apps</p>
+                    <h3 class="text-white text-[24px]">Moverment Where You're At</h3>
+                    <div class="mt-[10px]">
+                        <button class="rounded-[50px] border border-solid bg-[white] opacity-1 w-auto py-[8px] px-[20px]">
+                            <a class="text-black text-[18px] cursor-pointer font-medium" href="#">Move</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="size-full relative">
+                <img class="w-full h-full " src="../assets/homepage.webp/Orange.webp" alt="Orange">
+                <div class="absolute bottom-[50px] left-[50px]">
+                    <p class="text-white text-[16px] font-medium">Nike By You</p>
+                    <h3 class="text-white text-[24px]">Your Customization Service</h3>
+                    <div class="mt-[10px]">
+                        <button class="rounded-[50px] border border-solid bg-[white] opacity-1 w-auto py-[8px] px-[20px]">
+                            <a class="text-black text-[18px] cursor-pointer font-medium" href="#">Customize</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- When hover on it then it will expand it out  -->
+    <div class="flex justify-center overflow-hidden transition-all ease-in-out duration-500 max-[600px]:hidden" id="expandcontent">
+        <div class="w-[880px] flex justify-between px-[20px]">
+            
+            <div>
+                <h4  class="mb-[24px] text-[18px] font-medium">Featured</h4>
+                <ul class="text-gray-500 text base mb-[12px]">
+                    <li><a href="#" class="hover:text-black">Air Force 1</a></li>
+                    <li><a href="#" class="hover:text-black">Jordan 1</a></li>
+                    <li><a href="#" class="hover:text-black">Metcon</a></li>
+                    <li><a href="#" class="hover:text-black">Air Max 270</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="mb-[24px] text-[18px] font-medium">Shoes</h4>
+                <ul class="text-gray-500 text-base mb-[12px]">
+                    <li><a href="#" class="hover:text-black">All Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Jordan Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Running Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Basketball Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Tennis Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Training Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Custom Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Sale Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Soccer Shoes</a></li> 
+                
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="mb-[24px] text-[18px] font-medium"> Clothing </h4>
+                <ul class="text-gray-500 text-base mb-[12px]">
+                    <li><a href="#" class="hover:text-black">All Clothing</a></li>
+                    <li><a href="#" class="hover:text-black">Top & T-Shirts</a></li>
+                    <li><a href="#" class="hover:text-black">Shorts</a></li>
+                    <li><a href="#" class="hover:text-black">Hoodies & Pullovers</a></li>
+                    <li><a href="#" class="hover:text-black">All Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Jordan Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Running Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Basketball Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Joggers & sweatpants</a></li>
+                    <li><a href="#" class="hover:text-black">Sports Bras</a></li>
+                    <li><a href="#" class="hover:text-black">Pants & Tights</a></li>
+                    <li><a href="#" class="hover:text-black">Socks</li>
+                    <li><a href="#" class="hover:text-black">Yoga</a></li>
+                    <li><a href="#" class="hover:text-black">NikeLab</a></li>
+                    <li><a href="#" class="hover:text-black">Plus Size</a></li>
+                    <li><a href="#" class="hover:text-black">Big & Tall</a></li>
+                    <li><a href="#" class="hover:text-black">Sale Clothing</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <h4 class="mb-[24px] text-[20px] font-medium">Kids</h4>
+                <ul class="text-gray-500 ext-base mb-[12px">
+                    <li><a href="#" class="hover:text-black">Infant & Toddler Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Basketball Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Running Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Jordan Shoes</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Clothing</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Backpacks</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Socks</a></li>
+                    <li><a href="#" class="hover:text-black">Kids Sale</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>   
+    
+    <div class="mx-[20px] min-[600px]:hidden">
+        <ul class="text-[20px]">
+            <li class="mb-[24px]"><a href="#">Featured</a></li>
+            <li class="mb-[24px]"><a href="#">Shoes</a></li>
+            <li class="mb-[24px]"><a href="#">Clothing</a></li>
+            <li class="mb-[24px]"><a href="#">Kids</a></li>
+        </ul>
+    </div> 
+    
+    <!-- Footer -->
+    <div class="mt-[80px]">
+        <static-footer></static-footer>
+    </div>
+</body>
+</html>
