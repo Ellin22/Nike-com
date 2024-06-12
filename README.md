@@ -4,7 +4,6 @@ Goals :   Design Prototype and re-develop a user-friendly and visually captivati
 
 # Development Tools
 
-![Vscode](./assets/convention-guide/vscode.webp){ width=300px height=200px }
 - **Visual Studio Code (VSCode):** A powerful and versatile code editor that provides an excellent development environment with features like syntax highlighting, debugging support, and extensions for enhanced productivity.
 
 - **GitLab:** A web-based Git repository manager that offers version control, issue tracking, and continuous integration/continuous deployment (CI/CD) pipelines, facilitating collaborative software development.
@@ -14,8 +13,8 @@ Goals :   Design Prototype and re-develop a user-friendly and visually captivati
 # Communication tools
 
 - **ANB community :** A built-in platform in ANB learning platform used to communication and scrum-note purposes.
-- **Peer Review Board:**A platform for teammates to share their code and ask for their teammate opinions and criticism for a better way to construct their code.
-- **Notion:** A platform to organize team progress and sprint report. Note down the thing that we stuck on and the things that we learn.
+- **Peer Review Board :** A platform for teammates to share their code and ask for their teammate opinions and criticism for a better way to construct their code.
+- **Notion :** A platform to organize team progress and sprint report. Note down the thing that we stuck on and the things that we learn.
 
 # Plan
 
@@ -144,6 +143,7 @@ e.g: Please check my comment on file-name.ext( css, js, html ) on line :
 - **CSS Styling** : Do not write inline style or external styles that is not needed.
 
 # Version Control
+![Vscode](./assets/convention-guide/gitflow.webp)
 
 Issue naming convention :
 
