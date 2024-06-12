@@ -4,6 +4,7 @@ Goals :   Design Prototype and re-develop a user-friendly and visually captivati
 
 # Development Tools
 
+![Vscode](./assets/convention-guide/vscode.webp)
 - **Visual Studio Code (VSCode):** A powerful and versatile code editor that provides an excellent development environment with features like syntax highlighting, debugging support, and extensions for enhanced productivity.
 
 - **GitLab:** A web-based Git repository manager that offers version control, issue tracking, and continuous integration/continuous deployment (CI/CD) pipelines, facilitating collaborative software development.
@@ -125,9 +126,9 @@ Font-Family :
 
 - Each block of Css code must contain a comment with the section and a description of the section. e.g: Section 1: meaning/description
 
-Peer review comments :
+# Peer review comments :
 
-# **Common comments rule**
+## **Common comments rule**
 
 - **Inline comments**: comments can be made on specific lines of code inside the peer review board
 - **General comments**: inline comments made must be specified in the general comment
