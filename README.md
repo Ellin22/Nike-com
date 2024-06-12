@@ -13,8 +13,8 @@ Goals :   Design Prototype and re-develop a user-friendly and visually captivati
 # Communication tools
 
 - **ANB community :** A built-in platform in ANB learning platform used to communication and scrum-note purposes.
-- **Peer Review Board:**A platform for teammates to share their code and ask for their teammate opinions and criticism for a better way to construct their code.
-- **Notion:** A platform to organize team progress and sprint report. Note down the thing that we stuck on and the things that we learn.
+- **Peer Review Board :** A platform for teammates to share their code and ask for their teammate opinions and criticism for a better way to construct their code.
+- **Notion :** A platform to organize team progress and sprint report. Note down the thing that we stuck on and the things that we learn.
 
 # Plan
 
@@ -125,9 +125,9 @@ Font-Family :
 
 - Each block of Css code must contain a comment with the section and a description of the section. e.g: Section 1: meaning/description
 
-Peer review comments :
+# Peer review comments :
 
-# **Common comments rule**
+## **Common comments rule**
 
 - **Inline comments**: comments can be made on specific lines of code inside the peer review board
 - **General comments**: inline comments made must be specified in the general comment
@@ -143,6 +143,7 @@ e.g: Please check my comment on file-name.ext( css, js, html ) on line :
 - **CSS Styling** : Do not write inline style or external styles that is not needed.
 
 # Version Control
+![Vscode](./assets/convention-guide/gitflow.webp)
 
 Issue naming convention :
 
