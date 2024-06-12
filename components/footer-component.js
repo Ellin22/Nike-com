@@ -1,5 +1,7 @@
 class Footer extends HTMLElement {
     connectedCallback(){
+
+        //Put all the html code back to here in this part 
         this.innerHTML = `     
         <div class=" bg-black font-sans w-screen">
         <div class=" w-full flex flex-col  flex-wrap justify-between pt-[40px] px-[40px] min-[600px]:flex-row">
@@ -91,4 +93,6 @@ class Footer extends HTMLElement {
         `;
     }
 }
+
+//We have to call back the function and use it our html file with a proper and correct name
 customElements.define('static-footer', Footer)

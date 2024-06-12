@@ -7,6 +7,11 @@ module.exports = {
         'smin':'600px',
         'min': '960px',
         'des': '1920px',
+      },
+      fontFamily: {
+        'Futura': 'Futura',
+        'HelveticaNowText-Regular': 'HelveticaNowText-Regular',
+        'HelveticaNowText-Medium' : 'HelveticaNowText-Medium'
       }
     },
   },

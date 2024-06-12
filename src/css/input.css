@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: Futura ;
+    src: url(./src/fonts/Futura\ Condensed\ Extra\ Bold.otf);
+    font-weight: 800;
+}
+
+
+
+

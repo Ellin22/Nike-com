@@ -1,7 +1,8 @@
 class Navbar extends HTMLElement {
     connectedCallback(){
+
+        //Write all the html code here inside the inner HTML 
         this.innerHTML = `
-        <!-- Navbar  -->
             <div class="flex  justify-center max-[959px]:hidden bg-gray-100">
                 <div class="w-[1920px] flex justify-between pl-[38px] pr-[36px] ">
                     <div class="left-side">
@@ -13,20 +14,19 @@ class Navbar extends HTMLElement {
                     </div>
         
                     <div class="flex items-center">
-                        <ul class=" text-xs flex font-[500]">
+                        <ul class=" text-xs flex font-sans font-[500] ">
                             <li class="px-[4px] mr-[8px]"><a href="#"> Find a Store </a></li>
                             <li class="mr-[4px]"> | </li>
                             <li class="pl-[8px] pr-[4px]"><a href="#"> Help </a></li>
                             <li class="mx-[4px]"> | </li>
                             <li class="mx-[8px]"><a href="#"> Join Us </a></li>
                             <li class="mr-[4px]"> | </li>
-                            <li class="mx-[]"><a href="../pages/sign-in.html"> Sign In </a></li>
+                            <li ><a href="../pages/sign-in.html"> Sign In </a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         
-            <!-- lower-navbar -->
             <div class="flex justify-center">
                 <div class=" w-[1920px] flex justify-between pl-[38px] pr-[36px]">
                     
@@ -36,7 +36,7 @@ class Navbar extends HTMLElement {
                     </div>
                     
                     <div class="flex items-center">
-                        <ul class="flex ">
+                        <ul class="flex font-sans">
                             <li class="text-base pt-[12px] px-[12px] pb-[18px] max-[959px]:hidden "> New & Featured </li>
                             <li class="pt-[12px] px-[12px] pb-[18px] max-[959px]:hidden"> Men </li>
                             <li class="pt-[12px] px-[12px] pb-[18px] max-[959px]:hidden"> Women </li>
@@ -88,4 +88,6 @@ class Navbar extends HTMLElement {
         `;
     }
 }
+
+//Set a corect name for it the fitst one is for html and the second one is for JavaScript so using the different writing first one using the hyphen and the second using the camelCase
 customElements.define('static-nav', Navbar)
