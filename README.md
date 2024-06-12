@@ -4,7 +4,7 @@ Goals :   Design Prototype and re-develop a user-friendly and visually captivati
 
 # Development Tools
 
-![Vscode](./assets/convention-guide/vscode.webp)
+![Vscode](./assets/convention-guide/vscode.webp){ width=300px height=200px }
 - **Visual Studio Code (VSCode):** A powerful and versatile code editor that provides an excellent development environment with features like syntax highlighting, debugging support, and extensions for enhanced productivity.
 
 - **GitLab:** A web-based Git repository manager that offers version control, issue tracking, and continuous integration/continuous deployment (CI/CD) pipelines, facilitating collaborative software development.
